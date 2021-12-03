@@ -19,3 +19,33 @@
 10-git remote add origin git@github.com:NouranTaha/myrepo.git
 
 11-git push origin main
+
+------------------------------------------------------------------------------------
+
+LAB2
+------
+1- mkdir project , cd project , git clone (ssh url) , cd myrepo
+
+2- git branch dev , git branch test
+   git checkout dev
+   touch f1 f2
+   git add .
+   git commit -m "msg"
+   git push origin dev
+   
+3- git checkout main
+   git merge dev
+   git push origin main
+ 
+4-git push origin :(branch name) >> to delete a branch remotly
+  git branch -d (branch name)  >> to delete a merged branch locally 
+  
+5- git tag -a v1.4 -m "first tag"
+   git push origin v1.4
+   git tag    
+   git push origin --delete v1.4 (to delete a tag remotely)
+   git tag -d v1.4 (to delete a tag locally)
+   
+         
+
+
