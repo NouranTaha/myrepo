@@ -1,0 +1,21 @@
+1-set username and email by git config
+
+2-generate general ssh key
+
+3-copy the content of the file in the public key's path and add new ssh key in github setting
+
+4-create remote repo for example "myrepo"
+
+5-mkdir project1 , and in project1 touch file "nourantaha"
+
+6-git init to make a new local repo 
+
+7-git add nourantaha . <<to take the file to the staging area >>
+
+8-git commit -m "new file has been added"
+
+9-git branch -M main
+
+10-git remote add origin git@github.com:NouranTaha/myrepo.git
+
+11-git push origin main
